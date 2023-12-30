@@ -97,7 +97,7 @@ case $host in
 esac
 
 dnl Require C++20 compiler (no GNU extensions)
-AX_CXX_COMPILE_STDCXX([20], [noext], [mandatory])
+#AX_CXX_COMPILE_STDCXX([20], [noext], [mandatory])
 
 dnl Unless the user specified OBJCXX, force it to be the same as CXX. This ensures
 dnl that we get the same -std flags for both.
